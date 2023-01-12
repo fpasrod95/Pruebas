@@ -1,0 +1,42 @@
+<!--Formulario de pruebas del tema 5 de Entorno Cliente-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pruebas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Este es un formulario de pruebas</h1>
+    <form id="formulario" action="index.html">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre"><br>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos"><br>
+        <p>Seleccione su género si así lo desea:</p>
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="mujer" value="Mujer"><br>
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" value="Hombre"><br>
+        <label for="mujer">No quiero seleccionar</label>
+        <input type="radio" id="negativo" value="Negativo"><br>
+        <label for="provincias">Seleccione su provincia de nacimiento: </label>
+        <select name="provincias" id="provincias">
+            <option value="Huelva">Huelva</option>
+            <option value="Sevilla">Sevilla</option>
+            <option value="Cadiz">Cádiz</option>
+            <option value="Cordoba">Córdoba</option>
+            <option value="Granada">Granada</option>
+            <option value="Malaga">Málaga</option>
+            <option value="Almeria">Almería</option>
+            <option value="Jaen">Jaén</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>
